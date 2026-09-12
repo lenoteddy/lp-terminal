@@ -1,6 +1,6 @@
 import { ethers } from "ethers";
-import { tickToPrice } from "@uniswap/v3-sdk";
 import config from "@/constants/config";
+import { tickToPrice } from "@uniswap/v3-sdk";
 import { Token } from "@uniswap/sdk-core";
 import NonfungiblePositionManager from "@uniswap/v3-periphery/artifacts/contracts/NonfungiblePositionManager.sol/NonfungiblePositionManager.json";
 import IUniswapV3PoolABI from "@uniswap/v3-core/artifacts/contracts/interfaces/IUniswapV3Pool.sol/IUniswapV3Pool.json";
